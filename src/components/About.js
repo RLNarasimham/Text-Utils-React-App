@@ -4,10 +4,17 @@ export default function About(props) {
 
     let myStyle = {
         color: props.mode === "dark"?"white":"#0c4379",
+<<<<<<< HEAD
         backgroundColor:props.mode === 'dark'?"rgb(36 74 104)":"white"
     }
     return (
         <div className="container" style={{color: props.mode === "dark"?"white":"#0c4379"}}>
+=======
+        backgroundColor:props.mode === 'dark'?"#0c4379":"white"
+    }
+    return (
+        <div className="container" style={myStyle}>
+>>>>>>> 3952c63901f309b781f64a091a4c4f0162858a34
             <h1 className="my-3">About Text Utils</h1>
             <p>
             Welcome to Text Utils—your one-stop solution for efficient and intuitive text manipulation! Whether you're a student, a professional, or just someone who loves working with words, Text Utils is here to simplify your tasks and boost your productivity.
